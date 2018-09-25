@@ -29,5 +29,5 @@ export declare class SuperTabsController {
      */
     unregisterInstance(id: string): void;
     private getInstanceIndex(id);
-    private getInstance(id?);
+    getInstance(id?): any;
 }
